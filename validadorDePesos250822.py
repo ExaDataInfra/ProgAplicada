@@ -8,13 +8,13 @@ while(peso != 0):
 
     peso = int(input("Ingrese el peso de la pieza o cero para salir: "))
 
-    if(peso >= 3):
-        print("El peso es mayor o igual a 3. El peso ingresado fue de: " + str(peso))
+    if(peso >= 5):
+        print("El peso es mayor o igual a 5. El peso ingresado fue de: " + str(peso))
         acumulador1 = acumulador1 + peso
         contador1 += 1
 
-    elif(peso < 3 and peso >= 1):
-        print("El peso es menor a 3. El peso ingresado fue de: "  + str(peso))
+    elif(peso < 5 and peso >= 1):
+        print("El peso es menor a 5. El peso ingresado fue de: "  + str(peso))
         acumulador2 = acumulador2 + peso
         contador2 += 1
 
