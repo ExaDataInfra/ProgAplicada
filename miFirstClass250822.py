@@ -9,12 +9,14 @@ class Animal:
     def obtenerNombre(self):
         return self.nombre
     
-    def definirNombre(nombre):
+    def definirNombre(self, nombre):
         self.nombre = nombre
         
     
 instanciaPatoNiato = Animal(2, 'Ringo', 1)
 instanciaRatonPerez = Animal(70, 'Raton Perez', 350)
+
+instanciaRatonPerez.definirNombre('Raton Gonzalez')
 
 print("El nombre del pato es: " + instanciaPatoNiato.obtenerNombre())
 print("El nombre del ratón de los dientes es: " + instanciaRatonPerez.obtenerNombre())
