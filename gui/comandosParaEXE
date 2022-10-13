@@ -1,0 +1,3 @@
+py -m PyInstaller --onefile --windowed --icon=war.ico pruebaRaise2.py --version-file versionado.py
+
+Recuerden cambiar los .py y trabajar en el directorio correcto en el CMD
